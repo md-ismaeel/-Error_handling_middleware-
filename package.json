@@ -4,8 +4,12 @@
   "description": "error middleware",
   "main": "index.js",
   "scripts": {
+    "dev":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ismail",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
